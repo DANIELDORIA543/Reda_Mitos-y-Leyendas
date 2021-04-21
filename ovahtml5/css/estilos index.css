@@ -23,7 +23,10 @@ body{
     margin-right: 90px;
     font-family: 'Londrina Solid', cursive;
 }
-table{ 
-width: 90%;
-background-color: lightblue;
+
+nav{
+    background-color: chartreuse;
+    width: 100%;
+    margin: 0%;
+    text-indent: 80px;
 }
