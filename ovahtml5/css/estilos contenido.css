@@ -1,8 +1,74 @@
-body{
-    margin: 30px;
-    margin-left: 90px;
-    font-family: 'Londrina Solid', cursive;
+#titulo, #inicio, #contenido, #actividades, #creditos, #materiales, #evaluacion{ 
+    color: bisque;
+   background: #5C54CF;
 }
-h1{
+#titulo{
+    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-family: 'Akaya Kanadaka', cursive;
-}
+    text-align: left;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -08px;
+    font-size: 30px;}
+
+.movimiento{ 
+    margin-top: -20px;
+    font-size: 21px;
+    }
+#inicio{
+    
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 2%;
+    font-size: 18px;
+    padding: 0x;
+        font-family: 'Times New Roman', Times, serif
+    
+    }
+    
+#contenido{
+    text-align: left
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif
+    }
+    
+#actividades{
+        padding: 20px;
+    text-align: left
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif
+    }
+    
+#evaluacion{
+        padding: 20px;
+    text-align: left
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif
+    }
+    
+#materiales{
+        padding: 20px;
+    text-align: left
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif
+    }
+    
+#creditos{
+        padding: 20px;
+    text-align: left
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif
+    }
