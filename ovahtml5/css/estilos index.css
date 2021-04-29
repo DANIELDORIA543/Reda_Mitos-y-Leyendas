@@ -16,22 +16,19 @@ width: 50%;
 margin: 50px;
 
 }
-
-}
-#titulo{
-    font-family: 'Akaya Kanadaka', cursive;
-    font-size: 30px;
-}
 body{
     
     font-family: 'Londrina Solid', cursive;
+}
+#titulo{
+    background-color: darkgoldenrod;
 }
 .nav .menu1{ 
 list-style: none;
 background-color: blue;
 }
 .nav .menu1>li{
-padding: 2em;
+padding: 1em;
 float: left;
 }
 .nav .menu1>li>a{
@@ -40,4 +37,8 @@ float: left;
     font-weight: bold;
     color:black;
     text-decoration:none;
+}
+.nav .menu1>li:hover{
+    background-color: cadetblue;
+    cursor: pointer;
 }
