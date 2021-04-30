@@ -1,5 +1,14 @@
 #titulo{
     list-style: none;
+    background: #41E573;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: -50px;
+    margin-top: -20px;
+    margin-right: -20px;
+    color: #D8B1F8;
     
     
 }
@@ -15,6 +24,7 @@ background: #405FD6;
     padding-bottom: 7px;
     padding-top: 7px;
     float: left;
+    margin-top: -30px;
     
     
 
@@ -31,7 +41,10 @@ background: #405FD6;
     cursor: pointer;
 }
 #titulo{
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'Creepster', cursive;
+   text-shadow: -2px -2px 1px#8B0000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px#8B0000;;
+   font-size: 30px;
+   text-align: center;
 }
 h3, p{
     color: black;
