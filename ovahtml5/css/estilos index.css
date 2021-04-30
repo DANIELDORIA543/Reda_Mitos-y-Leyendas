@@ -64,7 +64,7 @@ background: #405FD6;
 }
 #titulo{
     font-family: 'Creepster', cursive;
-   text-shadow: -2px -2px 1px#8B0000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px#8B0000;;
+   text-shadow: -2px -2px 1px black, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px black;;
    font-size: 30px;
    text-align: center;
 }
