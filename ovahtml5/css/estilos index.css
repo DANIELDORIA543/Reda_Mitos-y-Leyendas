@@ -21,24 +21,34 @@ body{
     font-family: 'Londrina Solid', cursive;
 }
 #titulo{
-    background-color: darkgoldenrod;
+    list-style: none;
+    
+    
 }
-.nav .menu1{ 
+
+#nav #menu1>li { 
 list-style: none;
-background-color: blue;
+background: #405FD6;
+
+
 }
-.nav .menu1>li{
-padding: 1em;
-float: left;
-}
-.nav .menu1>li>a{
+#nav #menu1>li{
+    padding: 60px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    float: left;
+    
+    
+
+    }
+#nav #menu1>li>a{
     font-size: 18px;
     font-family: sans-serif;
-    font-weight: bold;
-    color:black;
+    color:white;
     text-decoration:none;
+    
 }
-.nav .menu1>li:hover{
-    background-color: cadetblue;
+#nav #menu1>li:hover{
+    background-color: #75BFE4;
     cursor: pointer;
 }

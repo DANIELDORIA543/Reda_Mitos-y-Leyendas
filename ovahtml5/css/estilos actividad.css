@@ -1,91 +1,32 @@
-
-h1{ 
-
-    margin-top: 50px;
-    font-family: 'Akaya Kanadaka', cursive;
+#titulo{
+    list-style: none;
+    
+    
 }
-.tabla{
-    margin-left: 90px;
-    margin-right: 90px;
-    font-family: 'Londrina Solid', cursive;
+
+#nav #menu1>li { 
+list-style: none;
+background: #405FD6;
+
+
 }
-table{ 
-    width: 90%;
+#nav #menu1>li{
+    padding: 60px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    float: left;
     
-    }
-#titulo, #inicio, #contenido, #actividades, #creditos, #materiales, #evaluacion{ 
-    color: bisque;
-    background: #5C54CF;
-    }
-    #titulo{
-        padding-bottom: 20px;
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-family: 'Akaya Kanadaka', cursive;
-        text-align: left;
-        margin-top: -10px;
-        margin-left: -10px;
-        margin-right: -08px;
-        font-size: 30px;
-    }
-        
-    }
-    .movimiento{ 
-        margin-top: -20px;
-        font-size: 21px;
-    }
-    #inicio{
     
-        text-align: left;
-        margin-top: 20px;
-        margin-left: 2%;
-        font-size: 18px;
-        padding: 0x;
-        font-family: 'Times New Roman', Times, serif
-    
+
     }
-    
-    #contenido{
-    text-align: left
-    margin-right: 30px;
-    padding: 10px;
+#nav #menu1>li>a{
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif
-    }
+    font-family: sans-serif;
+    color:white;
+    text-decoration:none;
     
-    #actividades{
-        padding: 20px;
-    text-align: left
-    margin-right: 30px;
-    padding: 10px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif
-    }
-    
-    #evaluacion{
-        padding: 20px;
-    text-align: left
-    margin-right: 30px;
-    padding: 10px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif
-    }
-    
-    #materiales{
-        padding: 20px;
-    text-align: left
-    margin-right: 30px;
-    padding: 10px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif
-    }
-    
-    #creditos{
-        padding: 20px;
-    text-align: left
-    margin-right: 30px;
-    padding: 10px;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif
-    }
+}
+#nav #menu1>li:hover{
+    background-color: #75BFE4;
+    cursor: pointer;
+}
