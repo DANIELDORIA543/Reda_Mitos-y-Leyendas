@@ -30,3 +30,19 @@ background: #405FD6;
     background-color: #75BFE4;
     cursor: pointer;
 }
+#titulo{
+    font-family: 'Londrina Solid', cursive;
+}
+body{
+    font-family: 'Londrina Solid', cursive;
+    
+}
+.tabla1{
+    margin-left: 80px;
+}
+.tabla2{
+    margin-left: 80px;
+}
+.tabla3{
+    margin-left: 80px;
+}

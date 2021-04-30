@@ -30,3 +30,13 @@ background: #405FD6;
     background-color: #75BFE4;
     cursor: pointer;
 }
+#titulo{
+    font-family: 'Londrina Solid', cursive;
+}
+h3, p{
+    color: black;
+    background-color: #FFF7EB;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Londrina Solid', cursive;
+    }
