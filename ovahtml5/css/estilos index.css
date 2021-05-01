@@ -1,5 +1,4 @@
 p{
-    text-align: center;
 color: black;
 background-color: #FFF7EB;
 width: 50%;
@@ -9,7 +8,6 @@ margin-left: 80px;
 
 }
 h3{
-    text-align: center;
 color: black;
 background-color: #FFF7EB;
 width: 50%;
@@ -67,4 +65,19 @@ background: #405FD6;
    text-shadow: -2px -2px 1px black, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px black;;
    font-size: 30px;
    text-align: center;
+}
+h2{
+    text-align: center;
+    color: black;
+    background-color: #FFF7EB;
+    width: 50%;
+    margin-left: 80px;
+}
+#texto1{
+    margin-left: 500px;
+}
+img{
+    margin-left: 25%;
+    margin-top: 20px;
+    
 }
