@@ -1,3 +1,4 @@
+
 p{
 color: black;
 background-color: #FFF7EB;
@@ -18,19 +19,29 @@ body{
     
     font-family: 'Londrina Solid', cursive;
 }
-#titulo{
-    list-style: none;
+
+
+#logo{
+    float: left;
+    
+    margin-left: -20px;
     background: #41E573;
-    padding-bottom: 30px;
-    padding-top: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-left: -50px;
+    padding-left: 50px;
+  padding-top: 20px;
     margin-top: -20px;
     margin-right: -20px;
+    padding-bottom: 60px;
     color: #D9F5F4;
+
     
+}
+
+#nav{
+    position: sticky;
+    opacity: 0,3;
+    top: -160px
     
+   
 }
 
 #nav #menu1>li { 
@@ -38,11 +49,12 @@ list-style: none;
 background: #405FD6;
 
 
+
 }
 #nav #menu1>li{
-    padding: 60px;
+    padding: 55px;
     padding-bottom: 7px;
-    padding-top: 7px;
+    padding-top: 10px;
     float: left;
     margin-top: -30px;
     
@@ -50,7 +62,7 @@ background: #405FD6;
 
     }
 #nav #menu1>li>a{
-    font-size: 18px;
+    font-size: 20px;
     font-family: sans-serif;
     color:white;
     text-decoration:none;
@@ -59,13 +71,11 @@ background: #405FD6;
 #nav #menu1>li:hover{
     background-color: #75BFE4;
     cursor: pointer;
+
 }
-#titulo{
-    font-family: 'Creepster', cursive;
-   text-shadow: -2px -2px 1px black, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px black;;
-   font-size: 30px;
-   text-align: center;
-}
+
+  
+   
 h2{
     text-align: center;
     color: black;
@@ -75,9 +85,4 @@ h2{
 }
 #texto1{
     margin-left: 500px;
-}
-img{
-    margin-left: 25%;
-    margin-top: 20px;
-    
 }
