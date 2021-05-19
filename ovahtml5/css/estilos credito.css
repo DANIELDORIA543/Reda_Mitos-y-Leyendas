@@ -12,7 +12,13 @@
     
     
 }
-
+#nav{
+    position: sticky;
+    opacity: 0,3;
+    top: -167px
+    
+   
+}
 #nav #menu1>li { 
 list-style: none;
 background: #405FD6;
@@ -20,9 +26,9 @@ background: #405FD6;
 
 }
 #nav #menu1>li{
-    padding: 60px;
+    padding: 50px;
     padding-bottom: 7px;
-    padding-top: 7px;
+    padding-top: 10px;
     float: left;
     margin-top: -30px;
     
@@ -31,7 +37,7 @@ background: #405FD6;
     }
 #nav #menu1>li>a{
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Reggae One', cursivo;
     color:white;
     text-decoration:none;
     
