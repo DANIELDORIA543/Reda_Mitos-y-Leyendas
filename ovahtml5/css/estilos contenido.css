@@ -3,11 +3,11 @@
     
     margin-left: -20px;
     background: #41E573;
-    padding-left: 50px;
+    padding-left: 80px;
   padding-top: 30px;
     margin-top: -20px;
     margin-right: -20px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     color: #D9F5F4;
 
     
@@ -16,7 +16,7 @@
 #nav{
     position: sticky;
     opacity: 0,3;
-    top: -165px
+    top: -120px
     
    
 }
