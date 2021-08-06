@@ -27,6 +27,7 @@ list-style: none;
 background: #405FD6;
 
 
+
 }
 #nav #menu1>li{
     padding: 50px;
@@ -48,6 +49,7 @@ background: #405FD6;
 #nav #menu1>li:hover{
     background-color: #75BFE4;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 H2{
