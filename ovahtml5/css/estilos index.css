@@ -1,3 +1,12 @@
+body{
+    
+    font-family: 'Londrina Solid', cursive;
+   background-image: url(../imagenes/fondooooooo.png);
+    background-repeat: no-repeat;
+    
+    
+}
+
 #logo{
     float: left;
     
@@ -18,14 +27,7 @@
     
    
 } 
-body{
-    
-    font-family: 'Londrina Solid', cursive;
-   background-image: url(../imagenes/fondooooooo.png);
-    background-repeat: no-repeat;
-    
-    
-}
+
 
 p{
 color: white;
@@ -50,19 +52,7 @@ margin-left: 110px;
 
 }
 
-#logo{
-    float: left;
-    
-    margin-left: -20px;
-    background: rgb(100);
-    padding-left: 80px;
-  padding-top: 40px;
-    margin-top: -20px;
-    margin-right: -20px;
-    padding-bottom: 50px;
-    color: #D9F5F4;
-      
-}
+
 
 #menu1>li { 
 list-style: none;
@@ -100,14 +90,6 @@ border-right-style: outset;
 
 }
 
-#horario{
-    margin-left: 68%;
-}
-table{
-     margin-left: 65%;
-     
-      
-  }  
  
 tr{
     margin: 15px;
@@ -122,3 +104,11 @@ td{
 
  
 }
+#horario{
+    margin-left: 68%;
+}
+table{
+     margin-left: 65%;
+     
+      
+  }  
