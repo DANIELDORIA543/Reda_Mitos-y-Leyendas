@@ -1,8 +1,15 @@
+body{
+    
+    font-family: 'Londrina Solid', cursive;
+    
+    background-image: url(../imagenes/fondo-contenido.png);
+    background-repeat: no-repeat;
+    
+}
 #logo{
     float: left;
     
     margin-left: -20px;
-    background: #41E573;
     padding-left: 80px;
   padding-top: 30px;
     margin-top: -20px;
@@ -13,6 +20,7 @@
     
 }
 
+
 #nav{
     position: sticky;
     opacity: 0,3;
@@ -21,9 +29,10 @@
    
 }
 
+
 #nav #menu1>li { 
 list-style: none;
-background: #405FD6;
+background: #068397;
 
 
 
@@ -54,8 +63,13 @@ background: #405FD6;
 
 h3, p{
     color: black;
-    background-color: #FFF7EB;
     margin-left: 100px;
     margin-right: 100px;
     font-family: 'Londrina Solid', cursive;
     }
+p{
+    font-size: 20px;
+}
+h3{
+    font-size: 25px;
+}
