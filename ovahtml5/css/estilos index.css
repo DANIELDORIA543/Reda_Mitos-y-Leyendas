@@ -87,6 +87,7 @@ border-right-style: outset;
     background-color: #75BFE4;
     cursor: pointer;
     text-decoration: underline;
+    
 
 }
 
@@ -95,12 +96,15 @@ tr{
     margin: 15px;
   padding: 15px;
   border-collapse: collapse;
+  background-color: #FBFDB0  ;
+
 
 }
 td{
     margin: 15px;
   padding: 15px;
   border: solid;
+  color: #003841;
 
  
 }

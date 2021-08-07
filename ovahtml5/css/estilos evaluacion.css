@@ -20,6 +20,7 @@
 #nav #menu1>li { 
 list-style: none;
 background: #405FD6;
+border-right-style: outset;
 
 
 
@@ -52,5 +53,5 @@ background: #405FD6;
     font-family: 'Londrina Solid', cursive;
 }
 #preguntas{
-    margin-left: 15%;
+    margin-left: 5%;
 }

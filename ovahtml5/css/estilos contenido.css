@@ -33,6 +33,7 @@ body{
 #nav #menu1>li { 
 list-style: none;
 background: #068397;
+border-right-style: outset;
 
 
 
