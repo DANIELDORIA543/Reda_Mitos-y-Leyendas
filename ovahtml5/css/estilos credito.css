@@ -1,6 +1,5 @@
 #titulo{
     list-style: none;
-    background: #41E573;
     padding-bottom: 40px;
     padding-top: 40px;
     padding-right: 20px;
@@ -12,6 +11,9 @@
     
     
 }
+body{
+    background-image: url(../imagenes/fondooooooo.png);
+}
 #nav{
     position: sticky;
     opacity: 0,3;
@@ -21,7 +23,7 @@
 }
 #nav #menu1>li { 
 list-style: none;
-background: #405FD6;
+background:  #068397;
 
 
 }
@@ -54,7 +56,8 @@ background: #405FD6;
    text-align: center;
 }
 H3{
-    font-family: 'Londrina Solid', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 50px;
+    color: white;
 }
