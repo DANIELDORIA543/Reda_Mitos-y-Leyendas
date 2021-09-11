@@ -1,0 +1,1 @@
+alert("Continúa a pesar de que todos esperen que abandones. No dejes que se oxide el hierro que hay en ti. ¡CONCENTRATE EN TU EVALUACION!");

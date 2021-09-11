@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
     <style>
     </style>
+    <script src="C:\Users\usuario\Documents\GitHub\Reda_Mitos-y-Leyendas\ovahtml5\js\actividades.js"></script>
 </head>
 <body">
     <header>
@@ -41,10 +42,27 @@
 
 
 
-
-    
-
     </pre>
+
+<pre>
+
+</pre>
+    <nav style="margin-left: 30%;">
+        <h1>Calculadora</h1>
+        <input type="text" id="arg1" size="1"> X <input type="text" id="arg2" size="1">
+        <input type="button" value="Calcular!" onclick="calc()"> 
+        <div id="result"></div>
+        <script type="text/javascript">
+        function calc(){
+        var argOne=document.getElementById('arg1').value; 
+        var argTwo=document.getElementById('arg2').value;
+        var ans=(argOne*argTwo); 
+        document.getElementById('result').innerHTML=argOne + ' multiplicado por ' + argTwo + ' es igual a ' + ans;
+        }
+        </script></nav>
+        <pre>
+            
+        </pre>
     <h3 style="margin-left: 70px; font-size: 30px;">RESPONDE:</h3> <br>
     <pre>
     </pre>
