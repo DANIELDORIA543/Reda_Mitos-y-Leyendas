@@ -60,6 +60,116 @@
 <pre>
 
 </pre>
+
+
+<center> 
+  <br>
+  <h1>Evaluación</h1>
+  <hr width="60%" size="20" noshade="noshade" color="#F95B28" >
+    <table border="5">
+          <th>Descricipcion</th> 
+          <th>Pregunta</th>
+          <tbody> 
+             <tr> 
+               <td> 
+                Digite la pregunta 
+              </td>
+              <td>
+                <input type="text" name="prg" id="prg"
+                placeholder="escribe aqui la pregunta"> 
+            
+              </td>
+             </tr>
+
+             <tr> 
+              <td> 
+               Digite opcion 1
+             </td>
+             <td>
+               <input type="text" name="opc1" id="opc1"
+               placeholder="escribe aqui la opcion 1"> 
+           
+             </td>
+            </tr>
+
+            <tr> 
+              <td> 
+               Digite opcion 2
+             </td>
+             <td>
+               <input type="text" name="opc2" id="opc2"
+               placeholder="escribe aqui la opcion 2"> 
+           
+             </td>
+            </tr>
+
+            <tr> 
+              <td> 
+               Digite opcion 3
+             </td>
+             <td>
+               <input type="text" name="opc3" id="opc3"
+               placeholder="escribe aqui la opcion 3"> 
+           
+             </td>
+            </tr>
+
+            <tr> 
+              <td> 
+               Digite opcion 4
+             </td>
+             <td>
+               <input type="text" name="opc4" id="opc4"
+               placeholder="escribe aqui la opcion 4"> 
+           
+             </td>
+            </tr>
+
+            <tr> 
+              <td> 
+               Digite respuesta correcta
+             </td>
+             <td>
+               <input type="text" name="respC" id="respC"
+               placeholder="escribe aqui respuesta correcta"> 
+           
+             </td>
+            </tr>
+
+
+          </tbody>
+
+   </table>
+
+   <table border="5">  
+      <tr>
+        <td>
+          <button onclick="guardarPregunta()">enviar</button>
+        </td>
+      </tr> 
+     </table>
+    <br>
+    <h3>
+        Listado de preguntas guardadas
+    </h3>
+    <br>
+    <table border="5">
+      <th>Pregunta</th>
+      <th>Opcion 1</th>
+      <th>Opcion 2</th>
+      <th>Opcion 3</th>
+      <th>Opcion 4</th>
+      <th>Respuesta Correcta</th>
+      <th>Respuesta Estudiante</th>
+      <tbody id="cuerpo">
+
+      </tbody>
+    </table>
+    <pre>
+      <pre>
+
+      </pre>
+    </pre>
 <div id="preguntas">
 ¿En qué época ocurren los hechos que se recogen en la leyenda que haz elegido? <br>
 <p><font size="4"><label style="color: teal;">Respuesta: </label> <textarea name="respuesta" cols="120" rows="5"></textarea></p>
@@ -104,110 +214,6 @@ En esta leyenda, ¿el autor ha descrito algún monumento que conozcas? <br>
 </form>
 </div>
 
-
-<center> 
-    <br>
-    <h1>Evaluación</h1>
-    <hr width="100%" size="20" noshade="noshade" color="greem" >
-      <table border="5">
-            <th>Descricipcion</th> 
-            <th>Pregunta</th>
-            <tbody> 
-               <tr> 
-                 <td> 
-                  Digite la pregunta 
-                </td>
-                <td>
-                  <input type="text" name="prg" id="prg"
-                  placeholder="escribe aqui la pregunta"> 
-              
-                </td>
-               </tr>
-
-               <tr> 
-                <td> 
-                 Digite opcion 1
-               </td>
-               <td>
-                 <input type="text" name="opc1" id="opc1"
-                 placeholder="escribe aqui la opcion 1"> 
-             
-               </td>
-              </tr>
-
-              <tr> 
-                <td> 
-                 Digite opcion 2
-               </td>
-               <td>
-                 <input type="text" name="opc2" id="opc2"
-                 placeholder="escribe aqui la opcion 2"> 
-             
-               </td>
-              </tr>
-
-              <tr> 
-                <td> 
-                 Digite opcion 3
-               </td>
-               <td>
-                 <input type="text" name="opc3" id="opc3"
-                 placeholder="escribe aqui la opcion 3"> 
-             
-               </td>
-              </tr>
-
-              <tr> 
-                <td> 
-                 Digite opcion 4
-               </td>
-               <td>
-                 <input type="text" name="opc4" id="opc4"
-                 placeholder="escribe aqui la opcion 4"> 
-             
-               </td>
-              </tr>
-
-              <tr> 
-                <td> 
-                 Digite respuesta correcta
-               </td>
-               <td>
-                 <input type="text" name="respC" id="respC"
-                 placeholder="escribe aqui respuesta correcta"> 
-             
-               </td>
-              </tr>
-
-
-            </tbody>
-
-     </table>
-
-     <table border="5">  
-        <tr>
-          <td>
-            <button onclick="guardarPregunta()">enviar</button>
-          </td>
-        </tr> 
-       </table>
-      <br>
-      <h3>
-          Listado de preguntas guardadas
-      </h3>
-      <br>
-      <table border="5">
-        <th>Pregunta</th>
-        <th>Opcion 1</th>
-        <th>Opcion 2</th>
-        <th>Opcion 3</th>
-        <th>Opcion 4</th>
-        <th>Respuesta Correcta</th>
-        <th>Respuesta Estudiante</th>
-        <tbody id="cuerpo">
-
-        </tbody>
-      </table>
       
 </body>
 </html>
