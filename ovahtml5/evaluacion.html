@@ -105,32 +105,31 @@ En esta leyenda, ¿el autor ha descrito algún monumento que conozcas? <br>
 </div>
 
 
-
 <center> 
     <br>
-    <h1>Evaluacion</h1>
-    <hr width="50%" size="15" noshade="noshade" color="turquoise blue color" >
-      <br>
+    <h1>Evaluación</h1>
+    <hr width="100%" size="20" noshade="noshade" color="greem" >
       <table border="5">
-            <th>descricipcion</th> 
-            <th>valor</th>
+            <th>Descricipcion</th> 
+            <th>Pregunta</th>
             <tbody> 
                <tr> 
                  <td> 
-                  digite la pregunta 
+                  Digite la pregunta 
                 </td>
                 <td>
-                  <imput type="text" name="preg" id="pregun"
+                  <input type="text" name="prg" id="prg"
                   placeholder="escribe aqui la pregunta"> 
               
                 </td>
                </tr>
+
                <tr> 
                 <td> 
-                 digite opcion 1 
+                 Digite opcion 1
                </td>
                <td>
-                 <imput type="text" name="opc 1" id="opc 1"
+                 <input type="text" name="opc1" id="opc1"
                  placeholder="escribe aqui la opcion 1"> 
              
                </td>
@@ -138,10 +137,10 @@ En esta leyenda, ¿el autor ha descrito algún monumento que conozcas? <br>
 
               <tr> 
                 <td> 
-                 digite opcion 2
+                 Digite opcion 2
                </td>
                <td>
-                 <imput type="text" name="opc 2" id="opc 2"
+                 <input type="text" name="opc2" id="opc2"
                  placeholder="escribe aqui la opcion 2"> 
              
                </td>
@@ -149,10 +148,10 @@ En esta leyenda, ¿el autor ha descrito algún monumento que conozcas? <br>
 
               <tr> 
                 <td> 
-                 digite opcion 3
+                 Digite opcion 3
                </td>
                <td>
-                 <imput type="text" name="opc 3" id="opc 3"
+                 <input type="text" name="opc3" id="opc3"
                  placeholder="escribe aqui la opcion 3"> 
              
                </td>
@@ -160,10 +159,10 @@ En esta leyenda, ¿el autor ha descrito algún monumento que conozcas? <br>
 
               <tr> 
                 <td> 
-                 digite opcion 4
+                 Digite opcion 4
                </td>
                <td>
-                 <imput type="text" name="opc 4" id="opc 4"
+                 <input type="text" name="opc4" id="opc4"
                  placeholder="escribe aqui la opcion 4"> 
              
                </td>
@@ -171,28 +170,44 @@ En esta leyenda, ¿el autor ha descrito algún monumento que conozcas? <br>
 
               <tr> 
                 <td> 
-                 digite opcion 5
+                 Digite respuesta correcta
                </td>
                <td>
-                 <imput type="text" name="opc 5" id="opc 5"
-                 placeholder="escribe aqui la opcion 5"> 
+                 <input type="text" name="respC" id="respC"
+                 placeholder="escribe aqui respuesta correcta"> 
              
                </td>
               </tr>
 
-              <tr> 
-                <td> 
-                 digiste la respuesta correcta 
-               </td>
-               <td>
-                 <imput type="text" name="resC" id="RC"
-                 placeholder="escribe aqui la respuesta correcta"> 
-             
-               </td>
-              </tr>
 
             </tbody>
+
+     </table>
+
+     <table border="5">  
+        <tr>
+          <td>
+            <button onclick="guardarPregunta()">enviar</button>
+          </td>
+        </tr> 
+       </table>
+      <br>
+      <h3>
+          Listado de preguntas guardadas
+      </h3>
+      <br>
+      <table border="5">
+        <th>Pregunta</th>
+        <th>Opcion 1</th>
+        <th>Opcion 2</th>
+        <th>Opcion 3</th>
+        <th>Opcion 4</th>
+        <th>Respuesta Correcta</th>
+        <th>Respuesta Estudiante</th>
+        <tbody id="cuerpo">
+
+        </tbody>
       </table>
-    </center>
+      
 </body>
 </html>
